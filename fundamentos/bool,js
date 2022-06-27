@@ -1,0 +1,13 @@
+let isativo = true 
+let isfalso = false
+
+console.log(isativo, isfalso)
+
+isativo = 1
+console.log(!!isativo) // valor verdadeiro da variavel 
+console.log(!isativo)  // valor falso da variavel
+
+
+// numeros inteiros e negativos diferentes de 0 se comportam como true 
+
+// numero 0, string vazia, null, NaN, undefined, false se comportam como false 
