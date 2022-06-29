@@ -20,3 +20,9 @@ for (i = 0; i < quant_caractere; i++) {
 
 //console.log(resp)
 console.log(aux)
+
+const number = document.querySelector("#name");
+
+var texto = number.value;
+
+console.log(texto)
